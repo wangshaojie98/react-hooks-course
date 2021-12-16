@@ -1,0 +1,83 @@
+.work-burden{
+  header {
+    padding: 0 20px;
+    display: flex;
+    justify-content:space-between;
+  }
+
+  &-analysis{
+    display: flex;
+  }
+
+  &-avg {
+    margin-right: 100px;
+    // border-right: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    h3 {
+      margin-bottom: 20px;
+    }
+    .min {
+      font-size: 60px;
+      font-family: 17DIN-Bold, 17DIN;
+      font-weight: bold;
+      color: rgba(0, 0, 0, 0.85);
+      line-height: 60px;
+    }
+    .min-label {
+      width: 28px;
+      height: 24px;
+      font-size: 14px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.65);
+      line-height: 24px;
+    }
+
+    &::after {
+      content: "";
+      display: table;
+      position: absolute;
+      top: 20px;
+      right: -50px;
+      width: 1px;
+      height: 67px;
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  &-total {
+    & > ul {
+      display: flex;
+      
+      & > li {
+        margin-right: 20px;
+
+        & > .min {
+          font-size: 12px;
+          font-family: PingFangSC-Regular, PingFang SC;
+          font-weight: 400;
+          color: rgba(0, 0, 0, 0.45);
+          line-height: 16px;
+          margin-bottom: 10px;
+        }
+
+        & > .title {
+          font-size: 20px;
+          font-family: 17DIN-Bold, 17DIN;
+          font-weight: bold;
+          color: rgba(0, 0, 0, 0.85);
+          line-height: 20px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+
+  &-percent {
+    margin-top: 63px;
+
+    & > h3 {
+      margin-bottom: 20px;
+    }
+  }
+}

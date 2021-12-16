@@ -1,0 +1,21 @@
+.student-portrait {
+  #dashboard-plan {
+    flex: 1;
+    // min-width: 200px;
+    min-height: 400px;
+  }
+  #dashboard-evaluate {
+    flex: 1;
+    // min-width: 200px;
+    min-height: 400px;
+  }
+  #radar-map-portrait {
+    // width: 800px;
+    // height: 800px;
+    width: 100%;
+    min-height: 500px;
+  }
+  .gauge-wrap {
+    display: flex;
+  }
+}

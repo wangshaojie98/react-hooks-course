@@ -1,0 +1,179 @@
+.study-quality {
+  .section-label-wrap {
+    display: flex;
+
+    .section-item {
+      margin-right: 10px;
+    }
+
+  }
+
+  .color-label {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 2px;
+    margin-right: 5px;
+  }
+  
+
+  .green-bg {
+    background-color: #0BB955;
+  }
+  .yellow-bg {
+    background-color: #FACC14;
+  }
+  .red-bg {
+    background-color: #F04864;
+  }
+  
+  .choice-qs-bg {
+    background-color: #1890FF;
+  }
+
+  .completion-qs-bg {
+    background-color: #13C2C2;
+  }
+
+  .solve-qs-bg {
+    background-color: #8543E0;
+  }
+
+  .color {
+    &-white {
+      color: #FFF;
+    }
+
+    &-black {
+      color: rgba(0, 0, 0, 0.65);
+    }
+  }
+
+  .active {
+    border: 4px solid #01A647;
+  }
+  .risk-profile {
+    margin-top: 20px;
+    position: relative;
+
+    .risk-item {
+      display: flex;
+      margin-bottom: 20px;
+      align-items: center;
+      height: 30px;
+      
+      .risk-normal {
+        flex: 26;
+        &:hover {
+          opacity: 1 !important;
+          cursor: pointer;
+        }
+      }
+      .risk-middle {
+        flex: 24;
+        &:hover {
+          opacity: 1 !important;
+          cursor: pointer;
+        }
+      }
+      .risk-high {
+        flex: 12;
+        &:hover {
+          opacity: 1 !important;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .risk-title {
+      min-width: 100px;
+      // border-right: 1px solid rgba(0, 0, 0);
+    }
+
+    .risk-text {
+      text-align: center;
+      font-size: 12px;
+    }
+
+    .border {
+      position: absolute;
+      width: 1px;
+      // height: 74px; // 动态计算，比risk-title高度多10
+      // transform: translateY(-100% - 5 - 20); // 20是margin,5是多的一半
+      transform: translateY(calc(-100% - 10px - 5px)); // 20是margin,5是多的一半
+      border: 1px solid rgba(0, 0, 0, 0.09);
+      left: 99px; // 冬天计算risk-title宽度
+    }
+  }
+
+  &-detail {
+    border-radius: 2px;
+    border: 1px solid #E8E8E8;
+
+    &-alert {
+      padding-left: 20px;
+      height: 52px;
+      line-height: 52px;
+      background-color: rgba(251, 211, 55, 0.2);
+      border-radius: 4px 4px 0px 0px;
+      // opacity: 0.1;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.85);
+      border-radius: 2px;
+      border-bottom: 1px solid #E8E8E8;
+    }
+  }
+
+  .alert-yellow {
+    background-color: rgba(251, 211, 55, 0.2);
+  }
+
+  .alert-green {
+    background-color: rgba(11, 185, 85, 0.2);
+  }
+
+  .alert-red {
+    background-color: rgba(240, 72, 100, 0.2);
+  }
+
+  .student {
+    &-wrap {
+      // width: 182px;
+      height: 100%;
+      overflow-y: auto;
+      overflow-x: hidden;
+      border-radius: 2px;
+      border-right: 1px solid #E8E8E8;
+    }
+  }
+
+  
+
+  .study-quality-detail-main {
+    display: flex;
+    height: 600px;
+    
+    max-height: 1000px;
+
+    .student-data-wrapper {
+      flex: 1;
+      padding: 20px;
+    }
+    .student-data {
+      width: 100%;
+    }
+  }
+  .clear::after {
+    content: '';
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+  }
+
+  .study-quality-time-analysis {
+    width: 100%;
+    height: 50px;
+  }
+}
