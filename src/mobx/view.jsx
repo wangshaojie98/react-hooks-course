@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { observable, action, makeAutoObservable } from "mobx";
+import { makeAutoObservable } from "mobx";
 import { Select } from 'antd'
 import { observer } from "mobx-react";
 

@@ -9,6 +9,8 @@ import WorkBurden from '../workBurden'
 import CodeDesign from '../codeDesign'
 import MVP from '../mvp';
 import Mobx from '../mobx/view'
+import WorkBurdenMVC from '../workBurdenMVC/view'
+import PDF from '../pdf'
 
 export const routes = [
   ["10 ListWithMore", ListWithMore],
@@ -20,6 +22,8 @@ export const routes = [
   ["14 CodeDesign", CodeDesign],
   ["15 MVP", MVP],
   ["16 MVC-Mobx", Mobx],
+  ["17 WorkBurdenMVC", WorkBurdenMVC],
+  ["18 PDF", PDF],
 ]
 const Empty = () => ""
 const Nav = () => (

@@ -1,0 +1,270 @@
+{
+  "data": {
+    "average": 68,
+    "rate_le_60": 0.12,
+    "rate_le_90": 0.78,
+    "rate_ge_90": 0.1,
+    "day_info": [
+      {
+        "day": "2021-10-01",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-02",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-03",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-04",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-05",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-06",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-07",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-08",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-09",
+        "rate_le_60": 0.5,
+        "rate_le_90": 0.5,
+        "rate_ge_90": 1
+      },
+      {
+        "day": "2021-10-10",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-11",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-12",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-13",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-14",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-15",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-16",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-17",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-18",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-19",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-20",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-21",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-22",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-23",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-24",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-25",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-26",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-27",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-28",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-29",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-30",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      },
+      {
+        "day": "2021-10-31",
+        "rate_le_60": null,
+        "rate_le_90": null,
+        "rate_ge_90": null
+      }
+    ],
+    "data": {
+      "school_master": {
+        "school_master": "校长",
+        "subject": {
+          "chinese": "语文",
+          "math": "数学",
+          "english": "英语",
+          "physics": "物理",
+          "chemistry": "化学",
+          "biology": "生物",
+          "politics": "政治",
+          "history": "历史",
+          "geography": "地理",
+          "science": "科学",
+          "history_society": "历史与社会",
+          "information": "信息",
+          "generic_technology": "通用技术",
+          "case_analysis": "案例分析"
+        },
+        "grade": {
+          "6": "六年级",
+          "7": "七年级",
+          "8": "八年级",
+          "9": "九年级"
+        },
+        "default_time": {
+          "start_time": "2021-09-01",
+          "end_time": "2022-02-20"
+        }
+      },
+      "grade_manager": {
+        "grade_manager": "年级主任",
+        "subject": {
+          "chinese": "语文",
+          "math": "数学",
+          "english": "英语",
+          "physics": "物理",
+          "chemistry": "化学",
+          "biology": "生物",
+          "politics": "政治",
+          "history": "历史",
+          "geography": "地理",
+          "science": "科学",
+          "history_society": "历史与社会",
+          "information": "信息",
+          "generic_technology": "通用技术",
+          "case_analysis": "案例分析"
+        },
+        "grade": {
+          "8": "八年级",
+          "9": "九年级"
+        },
+        "default_time": {
+          "start_time": "2021-09-01",
+          "end_time": "2022-02-20"
+        }
+      },
+      "subject_leader": {
+        "subject_leader": "学科组长",
+        "subject": {
+          "math": "数学"
+        },
+        "grade": {
+          "6": "六年级",
+          "7": "七年级",
+          "8": "八年级",
+          "9": "九年级"
+        },
+        "default_time": {
+          "start_time": "2021-09-01",
+          "end_time": "2022-02-20"
+        }
+      }
+    }
+  }
+}

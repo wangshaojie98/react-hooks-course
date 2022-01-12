@@ -1,0 +1,14 @@
+.pdf-table {
+  width: 100%;
+  .ant-table-thead > tr > th {
+
+    background: #EEF2FF;
+  }
+  .ant-table-tbody > tr > td {
+    border-color: #D2D2D2;
+  }
+
+  .ant-table-thead > tr > th, .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td {
+    padding: 4px 8px;
+  }
+}

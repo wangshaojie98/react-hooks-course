@@ -1,0 +1,78 @@
+.itervalLine {
+  ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+    li {
+      margin-left: 30px;
+      display: flex;
+      align-items: center;
+
+      // height: 14px;
+      font-size: 10px;
+      font-family: STSongti-SC-Regular, STSongti-SC;
+      font-weight: 400;
+      color: #666666;
+      line-height: 14px;
+      .colorBlock {
+        margin-right: 3px;
+        display: block;
+        width: 14px;
+        height: 14px;
+        // background: #73A0FA;
+      }
+    }
+  }
+
+  main {
+    .intervalLineItem {
+      display: flex;
+      page-break-inside: avoid;
+      height: 20px;
+      margin-bottom: 6px;
+      &__label {
+        width: 100px;
+        text-align: right;
+        margin-right: 12px;
+        
+        font-size: 14px;
+        font-family: STSongti-SC-Regular, STSongti-SC;
+        font-weight: 400;
+        color: #333333;
+        line-height: 20px;
+      }
+
+      &__content {
+        position: relative;
+        font-size: 12px;
+        font-family: Helvetica;
+        text-align: left;
+        flex: 1;
+        display: flex;
+        line-height:20px;
+        
+      }
+
+      &__subContent {
+        margin-left: 12px;
+      }
+      &__line {
+        position: absolute;
+        height: 24px;
+        width: 1px;
+        border: 1px dashed #FF5119;
+        top: -4px;
+      }
+
+      &__lineTitle {
+        position: absolute;
+        font-size: 12px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.45);
+        line-height: 17px;
+      }
+    }
+  }
+}

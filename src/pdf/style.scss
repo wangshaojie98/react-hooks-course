@@ -1,0 +1,26 @@
+.pdf__tr {
+  page-break-inside: avoid;
+}
+
+.pdf {
+  width: 100%;
+  .ant-table-thead > tr > th {
+
+    background: #EEF2FF;
+  }
+  .ant-table-tbody > tr > td {
+    border-color: #D2D2D2;
+  }
+
+  .page-before-after {
+    break-after: avoid;
+  }
+
+  // .page-before-after {
+  //   page-break-before: avoid;
+  // }
+
+  .page-before-inside {
+    page-break-inside: avoid;
+  }
+}

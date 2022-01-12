@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Nav />
+        {/* <Nav /> */}
         <div id="pageContainer" className="page-container">
           <Switch>
             { routes.map(([label, Component, additionalRoute = ""]) => (

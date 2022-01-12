@@ -1,0 +1,69 @@
+.faceting {
+  ul {
+    display: flex;
+    margin-bottom: 12px;
+    margin-left: 100px;
+    text-align: left;
+    li {
+      margin-left: 12px;
+      display: flex;
+      flex: 1;
+      font-size: 14px;
+      font-family: STSongti-SC-Bold, STSongti-SC;
+      font-weight: bold;
+      color: #000000;
+      line-height: 20px;
+    }
+  }
+
+  main {
+
+    @media print {
+      /* 当p标签内部发生分页时,页面底部至少保留3行,顶部至少保留2行 */
+    div {
+      orphans:3; widows:2;
+    }
+  }
+    .facetingItem {
+      display: flex;
+      page-break-inside: avoid;
+      // height: 20px;
+      margin-bottom: 6px;
+      margin-top: 6px;
+      &__label {
+        width: 100px;
+        text-align: right;
+        margin-right: 12px;
+        
+        font-size: 14px;
+        font-family: STSongti-SC-Regular, STSongti-SC;
+        font-weight: 400;
+        color: #333333;
+        line-height: 20px;
+      }
+
+      &__content {
+        flex: 1;
+        display: flex;
+        font-size: 14px;
+        font-family: STSongti-SC-Regular, STSongti-SC;
+        font-weight: 400;
+        color: #333333;
+        line-height: 22px;
+      }
+      &__subItem {
+        page-break-inside: avoid;
+
+        flex: 1;
+        margin-right: 20px;
+        & > div {
+        page-break-inside: avoid;
+
+        }
+      }
+      &__subContent {
+        margin-left: 12px;
+      }
+    }
+  }
+}
