@@ -6,9 +6,14 @@ import { formModel } from './model'
 class Controller {
   formModel = {};
   formLoading = false;
+  test = {
+    a: 1,
+    arr: [{name: 'arr'}]
+  }
   constructor(formModel) {
-    makeAutoObservable(this, {}, { autoBind: true });
     this.formModel = formModel;
+
+    makeAutoObservable(this, {}, { autoBind: true });
   }
 
   async fetchFormModel(username='111', school_id='2222') {
@@ -79,7 +84,8 @@ class Controller {
   }
 
   onSubmit() {
-    
+    this.test.a = Math.random()
+    console.log(this.test.a)
   }
 }
 

@@ -8,7 +8,7 @@ import StudyQuality from '../studyQuality'
 import WorkBurden from '../workBurden'
 import CodeDesign from '../codeDesign'
 import MVP from '../mvp';
-import Mobx from '../mobx/view'
+import Mobx from '../mobx'
 import WorkBurdenMVC from '../workBurdenMVC/view'
 import PDF from '../pdf'
 

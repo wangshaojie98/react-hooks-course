@@ -1,13 +1,15 @@
 import React from "react";
 import { Select, Button, DatePicker, Affix } from "antd";
 import moment from "moment";
+import { observer } from "mobx-react";
+
 import locale from "antd/es/date-picker/locale/zh_CN";
 import 'moment/locale/zh-cn';
 
 import "./style.scss";
 moment.locale('zh-cn');
 
-function WorkBurdenSearchForm(props) {
+const WorkBurdenSearchForm = observer((props) => {
   const {
     role = "",
     timeSegment = [],
@@ -18,6 +20,7 @@ function WorkBurdenSearchForm(props) {
     onTimeChange = () => {},
     onGradeChange = () => {},
     onSubmit = (type = "search") => {},
+    test={}
   } = props;
 
   return (
@@ -71,9 +74,10 @@ function WorkBurdenSearchForm(props) {
           </Button>
         </div>
         <p className="tip">*默认展示当前学期数据，按周统计趋势</p>
+        {test.a}
       </div>
     </Affix>
   );
-}
+})
 
 export default WorkBurdenSearchForm;

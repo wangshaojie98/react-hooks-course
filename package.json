@@ -47,6 +47,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.16.5",
     "customize-cra": "^1.0.0",
+    "glob": "^7.2.0",
     "react-app-rewired": "^2.1.8"
   }
 }

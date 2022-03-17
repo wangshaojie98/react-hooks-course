@@ -3,13 +3,19 @@ import { observer } from "mobx-react";
 import { Form } from './components';
 import controller from './controller'
 
-const ObserverForm = observer(({ controller }) => {
+// const ObserverForm = 
+const WorkBurdenMVC = observer(() => {
   console.log(controller)
+
+  useEffect(() => {
+        controller.fetchFormModel()
+      }, [])
   return (
     <Form 
       role = {controller.formModel.role}
       timeSegment = {controller.formModel.timeSegment}
       grade = {controller.formModel.grade}
+      test={controller.test}
       roleOptions = {controller.formModel.roleOptions}
       gradeOptions = {controller.formModel.gradeOptions}
       onRoleChange = {controller.onRoleChange}
@@ -19,13 +25,12 @@ const ObserverForm = observer(({ controller }) => {
     />
   )
 })
-export default function WorkBurdenMVC(props) {
-  useEffect(() => {
-    controller.fetchFormModel()
-  }, [])
-  return (
-    <div>
-        <ObserverForm controller={controller}/ >
-    </div>
-  )
-}
+
+export default WorkBurdenMVC
+//   useEffect(() => {
+//     controller.fetchFormModel()
+//   }, [])
+//   return (
+    
+//   )
+// }
